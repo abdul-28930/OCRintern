@@ -1,0 +1,10 @@
+# OCR dependencies
+pytesseract==0.3.10
+opencv-python==4.8.0.74
+numpy==1.24.3
+
+# Database dependencies
+supabase==1.0.3
+
+# Other utilities
+python-dotenv==1.0.0 
