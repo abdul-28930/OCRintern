@@ -86,6 +86,29 @@ To prevent this, ensure that `patient_name` is always extracted correctly. In ca
 2025-02-11 12:28:02,506 - INFO - Data extraction completed
 2025-02-11 12:28:02,756 - INFO - Successfully stored assessment with ID: bdbb2f33-b0db-490c-a6b0-d91cf12271df
 ```
+## Project Structure
+
+medical-form-ocr/
+├── src/
+│   ├── ocr/
+│   │   ├── preprocessor.py    # Image preprocessing
+│   │   └── extractor.py       # OCR data extraction
+│   ├── database/
+│   │   ├── models.py          # Database models
+│   │   └── db_handler.py      # Database operations
+│   ├── main.py               # Main application
+│   ├── test_db.py           # Database tests
+│   ├── test_ocr.py          # OCR tests
+│   └── verify_tesseract.py  # Installation verification
+├── sql/
+│   └── schema.sql           # Database schema
+├── samples/
+│   ├── sample_output.json   # Example JSON output
+│   └── sample_form.jpg      # Example form image
+├── .env                     # Environment variables
+├── .gitignore              # Git ignore rules
+├── requirements.txt        # Python dependencies
+└── README.md              # Documentation 
 
 ## Future Improvements
 - Enhance OCR accuracy using AI-based text correction.
