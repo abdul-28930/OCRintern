@@ -1,0 +1,24 @@
+{
+    "patient_name": "Patient_20250211_123456",
+    "date_of_birth": null,
+    "assessment_date": "02/11/2025",
+    "injection_received": false,
+    "exercise_therapy": false,
+    "difficulty_ratings": {
+        "bending": null,
+        "putting_on_shoes": 1,
+        "sleeping": null
+    },
+    "changes_since_last": "Not specified",
+    "changes_since_start": "Not specified",
+    "last_three_days": "Not specified",
+    "pain_symptoms": {
+        "pain": null,
+        "numbness": null,
+        "tingling": null,
+        "burning": null,
+        "tightness": null
+    },
+    "medical_data": {},
+    "raw_ocr_data": "Sample OCR extracted text..."
+} 
